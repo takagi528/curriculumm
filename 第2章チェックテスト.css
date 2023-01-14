@@ -1,0 +1,30 @@
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.blue-box{
+    width: 100px;
+    height: 400px;
+    background-color: darkblue;
+}
+
+.green-box {
+    width: 150px;
+    height: 250px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.white-box {
+    width: 60px;
+    height: 40px;
+    background-color: crimson;
+    float: left;
+}
+
+.orange-box{
+    width: 140px;
+    height: 50px;
+}
